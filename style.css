@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+aside{
+    flex: 1;
+    background-color:#1a1d1d;
+    color: aliceblue;
+    text-align: center;
+}
+
+main{
+    flex: 4;
+    background: linear-gradient(#9ed0c3, #1a1d1d);
+}
+
+nav ul {
+    list-style-type: none;
+    margin:  15px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: aliceblue;
+    border-radius: 25% 10%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #1a1d1d; 
+}
+
+#pdp {
+    display: block;
+    height: 20vh;
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+#category {
+    display: grid;
+    margin: 6vh 0;
+    height: 60vh;
+    grid-template-columns: 1;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+#contact {
+    grid-column: 1;
+    grid-row: 1;
+}
+#tongue {
+    grid-column: 1;
+    grid-row: 2;
+}
+#softskill {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.my-auto {
+    margin: auto 0;
+}
+.grid-center {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1;
+    grid-gap: 10px;
+    grid-auto-rows: auto;
+    list-style-type: none;
+}
+.grid-center li {
+    grid-column: auto;
+    grid-row: auto;
+}
+.grid-center li a {
+    text-decoration: none;
+    color: rgba(255, 98, 0, 0.553);
+}
+.grid-center li a:hover {
+    color: rgb(255, 98, 0);
+}
+#banner {
+    width: 90%;
+    height: 20vh;
+    background-image: url('assets/landscape.png');
+    background-size: cover;
+    background-position:  25% 25%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+    #pdp {
+        width: 70%;
+    }
+ 
+}
