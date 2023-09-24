@@ -1,14 +1,24 @@
-### Hi there 👋 I'm not Yassir but The Yassir
+# Biography
 
-I am a junior developer, the best of them, studying at O'clock in the Minotaur class !
+I'm Yassir, 23 years old and living not far from Paris.
+After trying to create a blog site using Wordpress Divi, I enrolled on a training course to become a web developer at WebForce3 (France). In this year, I learnt all the basics HTML, CSS, JS, PHP, Symfony and being passionate about development.
+Next year, I continued my training with an appenticeship at O'Clock (France) where I study Developpement, little of Cybersecurity and Devops (using VM Linux Ubuntu and Docker).
 
-My current stack is composed of PHP\Symfony Python\Django and the basics (HTML | CSS | JS)
+## Stack
 
-I work with VSCode and AWS Cloud9
+### Front-end:
 
-A talent in design that I was able to create a complete library: Bootstrap
+- Javascript
+- Vuejs
+- Nuxt
 
-During this year, I will add to my stack: React / Node / Laravel / Flutter to finally become an accomplished full-stack developer.
+### Back-end:
 
-My greatest talent is to make hello world app in many languages and my worst fault too.
+- PHP
+- Laravel
+- Symfony
+- Node
 
+### Mobile:
+
+- Flutter
